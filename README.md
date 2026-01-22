@@ -23,42 +23,63 @@ To prepare for kicking off our training on Tuesday, January 27th at 5 PM ET [her
 
 ## 📚 Learning Outcomes
 
-**Week 1: Building & Vibe Checking Class RAG Applications**
+<details>
+  <summary><strong>Week 1: Building & Vibe Checking Class RAG Applications</strong></summary>
 
-- *✨ Intro & Vibe Check*: Check the vibes on the LLM app you built during The AI Engineer Challenge and see how even naive context updates can have a big impact.
-- *🗃️ Dense Vector Retrieval*: Understand RAG from first principles, both conceptually and in code.
+  <ul>
+    <li><em>✨ Intro &amp; Vibe Check</em>: Check the vibes on the LLM app you built during The AI Engineer Challenge and see how even naive context updates can have a big impact.</li>
+    <li><em>🗃️ Dense Vector Retrieval</em>: Understand RAG from first principles, both conceptually and in code.</li>
+  </ul>
+</details>
 
-**Week 2: Building and Monitoring Agentic RAG Applications**
+<details>
+  <summary><strong>Week 2: Building and Monitoring Agentic RAG Applications</strong></summary>
 
-- *🔁 The Agent Loop*: Understand what an “agent” is and how to use the latest abstractions to build production-grade agents quickly.
-- *🕴️ Agentic RAG*: Look under the hood of agentic RAG and the `create_agent` abstraction.
+  <ul>
+    <li><em>🔁 The Agent Loop</em>: Understand what an “agent” is and how to use the latest abstractions to build production-grade agents quickly.</li>
+    <li><em>🕴️ Agentic RAG</em>: Look under the hood of agentic RAG and the <code>create_agent</code> abstraction.</li>
+  </ul>
+</details>
 
+<details>
+  <summary><strong>Week 3: Building More Complex Agentic Applications</strong></summary>
 
-**Week 3: Building More Complex Agentic Applications**
+  <ul>
+    <li><em>🔄 Multi-Agent Applications</em>: Learn when to add additional agents to optimize context and how to construct agent teams using common patterns.</li>
+    <li><em>🧠 Agent Memory</em>: Learn how to build agents that manage both short- and long-term memory.</li>
+  </ul>
+</details>
 
-- *🔄 Multi-Agent Applications*: Learn when to add additional agents to optimize context and how to construct agent teams using common patterns.
-- *🧠 Agent Memory*: Learn how to build agents that manage both short- and long-term memory.
+<details>
+  <summary><strong>Week 4: Systematic Evals for Agentic RAG Applications</strong></summary>
 
+  <ul>
+    <li><em>🧪 Synthetic Data Generation for Evals</em>: Learn how to automatically generate test data for agentic RAG applications when no eval datasets exist.</li>
+    <li><em>📊 Agentic RAG Evaluation</em>: Set up and implement effective evals for agents and RAG applications.</li>
+  </ul>
+</details>
 
-**Week 4: Systematic Evals for Agentic RAG Applications**
+<details>
+  <summary><strong>Week 5: Deeper on Agents &amp; RAG</strong></summary>
 
-- *🧪 Synthetic Data Generation for Evals*: Learn how to automatically generate test data for agentic RAG applications when no eval datasets exist.
-- *📊 Agentic RAG Evaluation*: Set up and implement effective evals for agents and RAG applications.
+  <ul>
+    <li><em>🐕 Advanced Retrievers</em>: Learn retrieval best practices and a systematic approach to choosing the right retriever for your AI applications.</li>
+    <li><em>🔌 MCP Connectors</em>: Learn how to leverage collections of tools to enhance retrieval on the client side of MCP servers.</li>
+    <li><em>📶 Deep Agents</em>: Build complex agents that operate over longer time horizons.</li>
+    <li><em>🕵️ Deep Research</em>: Understand how deep research systems work under the hood and how to build them.</li>
+  </ul>
+</details>
 
+<details>
+  <summary><strong>Week 6: Agent Servers &amp; Production Upgrades</strong></summary>
 
-**Week 5: Deeper on Agents & RAG**
+  <ul>
+    <li><em>🚢 Agent Servers</em>: Learn to deploy complex agent applications to production endpoints you can use elsewhere.</li>
+    <li><em>🔀 MCP Servers</em>: Learn how to set up MCP servers and enable public communication between agents.</li>
+    <li><em>🛤️ Guardrails &amp; Caching</em>: Learn practical upgrades for performance, security, and trustworthiness.</li>
+  </ul>
+</details>
 
-- *🐕 Advanced Retrievers*: Learn retrieval best practices and a systematic approach to choosing the right retriever for your AI applications.
-- *🔌 MCP Connectors*: Learn how to leverage collections of tools to enhance retrieval on the client side of MCP servers.
-- *📶 Deep Agents*: Build complex agents that operate over longer time horizons.
-- *🕵️ Deep Research*: Understand how deep research systems work under the hood and how to build them.
-
-
-**Week 6: Agent Servers & Production Upgrades**
-
-- *🚢 Agent Servers*: Learn to deploy complex agent applications to production endpoints you can use elsewhere.
-- *🔀 MCP Servers*: Learn how to set up MCP servers and enable public communication between agents.
-- *🛤️ Guardrails & Caching*: Learn practical upgrades for performance, security, and trustworthiness.
 
 
 # **🧰 Tooling**
@@ -103,6 +124,8 @@ Specifically, we will leverage the following tooling in the curriculum and assig
 
 Each week, you will receive personalized feedback from your support team on assignments submitted
 
-# **📚 About**
+# 🙏 Contributions
 
-This GitHub repository is your gateway to mastering the art of AI Engineering. ***All assignments for the course will be released here for your building, shipping, and sharing adventures!***
+We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for Agent Engineering at SRHG in 2026 together.
+
+Please reach out to `chris@aimakerspace.io` with any questions or suggestions.
