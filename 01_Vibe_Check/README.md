@@ -46,19 +46,32 @@ Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
     - Aspect Tested:
+        - general computer science Knowledge
+        - Simplifying complex ideas
+        - Teaching concepts in an understandable way
 2. Read the following paragraph and provide a concise summary of the key points…
     - Aspect Tested:
+        - Info parsing
+        - extracing core relevant details
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
     - Aspect Tested:
+        - Creative writing
+        - emulating human voice
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
     - Aspect Tested:
+        - math
+        - reasoning
+        - sequential thinking
 5. Rewrite the following paragraph in a professional, formal tone…
     - Aspect Tested:
+        - modulating written voice
+        - honing in on salient details
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
 ##### ✅ Answer:
+Yes
 
 ---
 
@@ -73,18 +86,85 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
+1. Prompt: What can I cook with carrots, beef and chicken stock?
    - Result:
-2. Prompt:
+        Great combo—you’ve got the makings of a cozy stew or a light soup. Here are a few easy options:
+
+        1) Simple beef and carrot stew (3 ingredients)
+        - You’ll need: about 1 lb beef (chuck or stewing beef), 4–5 carrots (chunked), 4 cups chicken stock, salt/pepper.
+        - Steps:
+        - Pat beef dry, season, sear in a little oil until well browned.
+        - Add stock, scrape up browned bits, bring to a simmer.
+        - Add carrots, cover and simmer gently until beef is tender, 1.5–2 hours. Adjust seasoning.
+        - Optional boosters if you have them: onion/garlic, bay leaf, thyme, splash of soy sauce or Worcestershire, a spoon of tomato paste.
+
+        2) Quick beef and carrot soup
+        - Slice beef thinly against the grain; slice carrots.
+        - Simmer carrots in chicken stock 10–12 minutes until tender.
+        - Season stock, then add the sliced beef and cook just 2–3 minutes until just done. Finish with black pepper.
+        - Optional: noodles or rice, a squeeze of lemon, scallions, parsley.
+
+        3) Carrot soup with seared beef topper
+        - Simmer carrots in stock until very soft; blend until smooth and season.
+        - Quickly sear thin slices or small cubes of beef in a hot pan, salt/pepper.
+        - Ladle carrot soup into bowls and top with the beef and any pan juices.
+
+        If you tell me what cut of beef and what pantry items you have (onion, herbs, soy, tomato paste, potatoes, noodles), I can tailor the best version and timing. You’ve got this!
+
+2. Prompt: Draft an eMail to my boss asking for a raise
    - Result:
-3. Prompt:
+        Here are a few polished, customizable drafts you can use. Pick the tone that fits your relationship with your boss and plug in your specifics.
+
+        Subject line options:
+        - Request to discuss my compensation
+        - Compensation review request
+        - Quick chat about my role and compensation
+        - Aligning my role, impact, and pay
+
+        Direct and professional:
+        Hello [Boss’s Name],
+
+        I appreciate your support on [recent project or initiative]. Over the past [time period], I have:
+        - [Achievement 1 with a clear metric or outcome]
+        - [Achievement 2 with metric or scope]
+        - [New responsibility or leadership you’ve taken on]
+
+        Given these contributions and market benchmarks for [your role] in [location/industry], I’d like to discuss aligning my compensation. I’m seeking [target salary or X% increase], and I’m open to discussing structure and timing.
+
+        Could we schedule 20–30 minutes next week to talk this through?
+
+        Thanks for your consideration,
+        [Your Name]
+        ...
+
+3. Prompt: what kind of birthday celebration should I plan for my girlfriend (in her 20s) on March 8
    - Result:
+        Fun timing—March 8 is also International Women’s Day, so spots can book up and you can weave in a little “celebrating her” theme. A great plan balances what she loves, a personal touch, and a clear flow to the day.
+
+        Quick questions to tailor it:
+        - What are 3 things she loves (food, hobbies, vibe)?
+        - Intimate just-you-two or social with friends/family?
+        - Surprise or collaborative?
+        - Budget range and how much time you can spend planning?
+        - Any dietary needs or mobility/weather constraints?
+
+        Ready-to-use celebration ideas (pick one style or mix and match):
+        1) Romantic and personal (just you two)
+        - Morning: Breakfast in bed + a handwritten letter celebrating who she is (Women’s Day tie-in).
+        - Midday: Cozy spa date (couples massage) or a pottery/candle-making class.
+        - Evening: Private chef at home or a small chef’s tasting/omakase. Create a playlist of “your story,” decorate with purple/green/white or mimosa flowers.
+        - Gift: A small engraved piece or a photo book of your favorite moments.
+
+        2) Experience-first adventure
+        - Sunrise or golden-hour hike with a thermos of cocoa and a picnic (weather-ready kit).
+        - Afternoon: Museum or botanical garden, then a surprise activity she’s mentioned (glassblowing, aerial yoga, climbing, cooking class).
+        - Night: Dessert crawl at three spots or a rooftop with a city view.
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
-
+Yes, the vibes are mostly aligned. It's responses are a bit verbose but, that can be tuned. It's obviously missing access to my real personal info, which would make its responses more tailored to me individually but, the answers it currently gives back aren't that bad.
 ---
 
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
@@ -95,15 +175,27 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
+1. Prompt: What does my schedule look like tomorrow?
    - Result:
-2. Prompt:
+        I don’t have access to your calendar, so I can’t see tomorrow’s events yet. Want me to:
+            - Summarize your existing schedule? Paste your calendar entries (a screenshot or a list works) and I’ll turn it into a clear timeline with priorities.
+            - Help you plan the day from scratch? I’ll build a balanced schedule around your commitments and goals.
+        ...
+2. Prompt: What time should I leave for the airport?
    - Result:
+        Happy to help you pick a leave time that keeps things calm instead of rushed. A couple details will let me give you a precise answer:
+            - Which airport (and terminal, if you know)?
+            - Departure time and day of week?
+            - Domestic or international?
+            - How are you getting there (drive/ride-share/public transit), and how long does that trip usually take at that time? Will you park and take a shuttle?
+            - Checking bags? Do you have TSA PreCheck/CLEAR (or your country’s equivalent)?
+            - Traveling with kids or anyone needing extra time?
 
 #### ❓Question #3:
 
 What are some limitations of your application?
 ##### ✅ Answer:
+The LLM application is missing critical personal context that would help it tailor its answers to my specific situation.
 
 ---
 
