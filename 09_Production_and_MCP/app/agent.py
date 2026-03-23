@@ -623,5 +623,35 @@ def build_graph():
     )
     return g
 
+def _route_simple_agent(state: AgentState):
+    """Route for the simple graph: tools or end (no guardrails)."""
+    last_message = state["messages"][-1]
+    if getattr(last_message, "tool_calls", None):
+        return "action"
+    return END
+
+
+def build_simple_graph():
+    """
+    Build an investment assistant graph without guardrails or helpfulness evaluation nodes.
+    """    
+    tool_node = ToolNode(get_tool_belt())
+
+    sg = StateGraph(AgentState)
+    sg.add_node("agent", agent)
+    sg.add_node("action", tool_node)
+
+    sg.set_entry_point("agent")
+    sg.add_conditional_edges(
+        "agent",
+        _route_simple_agent,
+        {"action": "action", END: END},
+    )
+    sg.add_edge("action", "agent")
+
+    return sg
+
+
 
 graph = build_graph().compile()
+simple_graph = build_simple_graph().compile()
