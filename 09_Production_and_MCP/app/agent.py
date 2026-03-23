@@ -581,6 +581,14 @@ def helpfulness_decision(state: AgentState):
         return "end"
     return "continue"
 
+def _route_simple_agent(state: AgentState):
+    """Route for the simple graph: tools or end (no guardrails)."""
+    last_message = state["messages"][-1]
+    if getattr(last_message, "tool_calls", None):
+        return "action"
+    return END
+
+
 
 # ---------------------------------------------------------------------------
 # 11. Graph Build
@@ -622,13 +630,6 @@ def build_graph():
         {"continue": "agent", "end": END, END: END},
     )
     return g
-
-def _route_simple_agent(state: AgentState):
-    """Route for the simple graph: tools or end (no guardrails)."""
-    last_message = state["messages"][-1]
-    if getattr(last_message, "tool_calls", None):
-        return "action"
-    return END
 
 
 def build_simple_graph():
