@@ -266,6 +266,19 @@ def search_investor_letter(query: str, section: str = "all") -> str:
 
     return f"Found matches in {len(results)} section(s):\n\n" + "\n\n---\n\n".join(results)
 
+@mcp.tool()
+def compare_funds(fund_a: str, fund_b: str) -> str:
+    """Compare two Stone Ridge funds.
+    """
+    fund_a_overview = get_fund_overview(fund_name=fund_a)
+    fund_b_overview = get_fund_overview(fund_name=fund_b)
+    return f"""
+    -----FUND COMPARISON-----
+        {fund_a}: {fund_a_overview}\n\n
+        {fund_b}: {fund_b_overview}
+    -------------------------
+    """
+
 
 # ---------------------------------------------------------------------------
 # Entry point
