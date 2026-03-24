@@ -118,8 +118,8 @@ class CacheBackedEmbeddings:
         cache_dir: str = "./cache/embeddings",
         batch_size: int = 32,
     ):
-        from langchain.embeddings import CacheBackedEmbeddings as _LCCached
-        from langchain.storage import LocalFileStore
+        from langchain_classic.embeddings import CacheBackedEmbeddings as _LCCached
+        from langchain_classic.storage import LocalFileStore
 
         self.base_embeddings = OpenAIEmbeddings(model=model)
         safe_namespace = hashlib.md5(model.encode()).hexdigest()
